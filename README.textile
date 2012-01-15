@@ -8,7 +8,7 @@ tags:
 <r:messages total='3'>
 <r:each>
 <div class="msg_balloon">
-  <div class="msg_balloon_top"><r:author/> disse:</div>
+  <div class="msg_balloon_top"><r:author/> said:</div>
 	<div class="msg_balloon_content"><r:body/></div>
 	<div class="msg_balloon_bottom"></div>
 </div>
