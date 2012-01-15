@@ -1,0 +1,23 @@
+= Messaging for Radiant
+
+This extension depends on the members extension
+
+tags:
+
+<pre><code>
+<r:messages total='3'>
+<r:each>
+<div class="msg_balloon">
+  <div class="msg_balloon_top"><r:author/> disse:</div>
+	<div class="msg_balloon_content"><r:body/></div>
+	<div class="msg_balloon_bottom"></div>
+</div>
+</r:each>
+</r:messages>
+<r:messenger:form>
+<div id="messenger_box">
+	<div id="messenger_box_top"></div>
+	<div id="messenger_box_content"><r:body default_text='Express yourself.'/></div>
+</div>
+</r:messenger:form>
+</code></pre>
