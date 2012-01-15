@@ -1,4 +1,4 @@
-= Messaging for Radiant
+h1. Messaging for Radiant
 
 This extension depends on the members extension
 
